@@ -19,7 +19,7 @@ public class ImageController {
     @GetMapping("/download")
     @ResponseBody
     public String downloadImage() {
-        String imageUrl = "https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
+        String imageUrl = "https://api.dominos.co.in/prod-olo-api/images/Home_Paytm_20210519.jpg";
         String savePath = "/Users/niharbasisth/Desktop/Landing/img.jpg";
         try {
             URL url = new URL(imageUrl);
